@@ -1,0 +1,8 @@
+detail
+<br>
+{{post.title}}
+<br>
+{{post.content}}
+<br>
+<a href="{% url 'blog:updated' post.id %}">Editar<a/>
+<a href="{% url 'blog:delete' post.id %}">Eliminar<a/>
